@@ -1,11 +1,16 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+- name: 🐰52@oneclickvpnkeys
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: usa1.spectrumproxy.shop
+  sni: usa1.spectrumproxy.shop
+  tls: false
+  type: hysteria2
+- name: '@Napsternetvirani #1'
+  password: e04a51d1-0450-4919-b924-bd08501934bf
+  port: 443
+  server: 80.66.78.105
+  skip-cert-verify: false
+  sni: 80.66.78.105.nip.io
+  tls: false
+  type: hysteria2
